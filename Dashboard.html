@@ -1,0 +1,112 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="header-left">
+            <h1>📊 AI Dashboard</h1>
+            <span>Govt School Raipur</span>
+        </div>
+        <div class="header-right">
+            <div class="user-avatar">AR</div>
+            <span>Aarav R. - Class 8</span>
+        </div>
+    </header>
+
+    <!-- Main Stats -->
+    <div class="stats-container">
+        <div class="stat-card primary">
+            <div class="stat-number">78%</div>
+            <div class="stat-label">Overall Score</div>
+            <div class="stat-change positive">+5% this week</div>
+        </div>
+        
+        <div class="stat-card warning">
+            <div class="stat-number">22%</div>
+            <div class="stat-label">Dropout Risk</div>
+            <div class="stat-change negative">⚠️ Action needed</div>
+        </div>
+        
+        <div class="stat-card success">
+            <div class="stat-number">4.2</div>
+            <div class="stat-label">Avg Grade</div>
+            <div class="stat-change positive">+0.3</div>
+        </div>
+    </div>
+
+    <!-- Subject Performance -->
+    <div class="subjects-container">
+        <h2>📚 Subject Performance</h2>
+        <div class="subjects-grid">
+            <div class="subject-card">
+                <div class="subject-icon">🔢</div>
+                <div class="subject-info">
+                    <h3>Mathematics</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%"></div>
+                    </div>
+                    <span class="subject-score">85%</span>
+                </div>
+            </div>
+            
+            <div class="subject-card">
+                <div class="subject-icon">🧪</div>
+                <div class="subject-info">
+                    <h3>Science</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 72%"></div>
+                    </div>
+                    <span class="subject-score">72%</span>
+                </div>
+            </div>
+            
+            <div class="subject-card">
+                <div class="subject-icon">📖</div>
+                <div class="subject-info">
+                    <h3>English</h3>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 68%"></div>
+                    </div>
+                    <span class="subject-score">68%</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recommendations -->
+    <div class="recommendations-container">
+        <h2>🎯 Recommended Learning Paths</h2>
+        <div class="rec-grid">
+            <div class="rec-card urgent">
+                <div class="rec-header">
+                    <h3>🔢 Math Booster</h3>
+                    <span class="priority high">High Priority</span>
+                </div>
+                <p>Focus on algebra weaknesses</p>
+                <button class="action-btn primary">Start Now</button>
+            </div>
+            
+            <div class="rec-card normal">
+                <div class="rec-header">
+                    <h3>🧪 Science Labs</h3>
+                    <span class="priority medium">Medium</span>
+                </div>
+                <p>Interactive physics experiments</p>
+                <button class="action-btn">Start Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bottom-nav">
+        <a href="login.html" class="nav-btn secondary">← Back to Login</a>
+    </nav>
+</body>
+</html>
